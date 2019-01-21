@@ -11,7 +11,7 @@
   <div class="container cf">
     <div class="flex rel">
       <div class="hdr__logo-cont flex">
-        <div class="hdr__logo"><img src="v1/src/images/sp-common.png"></div>
+        <div class="hdr__logo"><img src="v1/src/sprites/common/logo.png"></div>
         <div class="hdr__logo-line"></div>
         <div class="hdr__hsp"></div>
       </div>
