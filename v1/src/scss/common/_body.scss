@@ -137,9 +137,9 @@ list-style-image: url("/v1/src/images/marker.png"); /* Путь к изобра�
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 60px;
-	width: 250px;
+	width: 260px;
 	text-align:center;
-	font-size: 26px;
+	font-size: 24px;
 	margin:auto;
 	font-weight: 900;
 	cursor: pointer;
@@ -223,4 +223,35 @@ margin-top: 2px;
 }
 .learn-more{
 	color: #fdf500;
+}
+#processing {
+	padding-bottom: 120px;
+}
+#processing .under-header{
+	font-size: 22px;
+	color: #060636;
+	border: 0px;
+
+}
+#loading{
+	width:300px;
+	height: 40px;
+	background-image: linear-gradient(to right, #ff7f00 , #ffff00);
+	margin:auto;
+	border-radius: 10px;
+}
+.load-items {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 30px;
+		font-weight: 600;
+}
+.load-items div{
+margin-left: 30px;
+padding-top: 5px;
+}
+.request{
+	color: #565656;
+	font-weight: 300;
 }

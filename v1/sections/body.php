@@ -31,22 +31,49 @@
 	<div class="second-table">
 		<div class="table-header"><p class="start-text">START HERE</p><p class="start-under"> Get your FREE Personalized Quote</p></div>
 		<div class="table-body">
-			<p class="under-header">
+		<div id="three-steps" style="display:block;">
+			<p class="under-header" id="under-header-1" style="display:block;">
 			Are you currently processing
 			payments?
 			</p>
-			<div style="padding-top: 60px; padding-bottom: 60px;">
-			
-			<div class="y-button">YES »</div>
-			<div class="y-button">NO »</div>
+			<p class="under-header" id="under-header-2" style="display:none;">
+			What type of processing do you need?
+			</p>
+			<p class="under-header" id="under-header-3" style="display:none;">
+			When do you need to start processing credit card payments ?
+			</p>
+			<div style="padding-top: 60px; padding-bottom: 60px; display:block;" id="content-1" >		
+				<div class="y-button">YES »</div>
+				<div class="y-button">NO »</div>
+			</div>
+			<div style="padding-top: 60px; padding-bottom: 60px; display:none;" id="content-2" >	
+				<div class="y-button">Retail/Swipe »</div>
+				<div class="y-button">Online Processing»</div>
+				<div class="y-button">Other »</div>
+			</div>
+			<div style="padding-top: 60px; padding-bottom: 60px; display:none;" id="content-3" >
+				<div class="y-button">As Soon as Possible»</div>
+				<div class="y-button">Within 14 Days»</div>
+				<div class="y-button">14 Days or More»</div>
 			</div>
 			<div class="pagination">
-			<div class="pagination-item active"></div>
-			<div class="pagination-item"></div>
-			<div class="pagination-item"></div>
-			<div class="pagination-item"></div>
-
+				<div class="pagination-item active"></div>
+				<div class="pagination-item"></div>
+				<div class="pagination-item"></div>
+				<div class="pagination-item"></div>
 			</div>
+		</div>
+		<div id="processing" style="display:none;">
+			<p class="under-header"  style="display:block;">
+				Processing Your Quote
+			</p>
+			<div id="loading"></div>
+			<div class="load-items">
+			<div><img src="v1/src/images/marker-big.png" style="float:left; margin-right: 10px;"> <span class="request">Currently Processing?: </span> No</div>
+			<div><img src="v1/src/images/marker-big.png" style="float:left;  margin-right: 10px;"> <span class="request">Type: </span> Online</div>
+			<div><img src="v1/src/images/marker-big.png" style="float:left;  margin-right: 10px;"> <span class="request">How soon?:</span> Loading</div>
+			</div>
+		</div>
 		</div>
 	</div>
 	<div class="third-table"> 
