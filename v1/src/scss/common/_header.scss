@@ -1,11 +1,47 @@
+@font-face {
+    font-family: MyriadPro; 
+    src: url(/v1/src/fonts/MyriadPro-Regular.ttf); 
+ }
 .hdr{
 padding-top: 10px;
 padding-bottom: 10px;
 }
+.hdr__logo img{
+height: 100%;
+}
+.hdr__call {
+cursor: pointer;
+}
 .phone_icon{
-float:left;
-height:100%;
+background: url("/v1/src/images/left-bottom-left-bg.png");
+background-size: cover;
+padding: 10px;
+float:left; 
+height: 25px;
+border-radius: 10% 0% 0 10%;
+display:flex;
+border: 1px solid #086008;
+}
+.phone_icon img{
+height: 100%;
 }
 .phone_number{
-float:left;
+background: url("/v1/src/images/left-bottom-right-bg.png");
+background-size: cover;
+padding: 10px;
+padding-top: 5px;
+border-radius: 0 3% 3% 0;
+height: 30px;
+border: 1px solid #086008;
+}
+.hdr__call-title{
+font-size: 10px;
+color: $white;
+font-weight: 300; 
+}
+.hdr__call-number{
+font-size: 22px;
+color: $white;
+line-height: 18px;
+font-weight: bold;
 }

@@ -8,18 +8,18 @@
 	<div class="table-content">
 	<ul>
 	<li>
-	Competitive Rates starting at 0.40%
+	<span class="y-text">Competitive </span> Rates starting at 0.40%
 	</li>
 	<li>
-	24/7 Dedicated customer
+	<span class="y-text">C24/7</span> Dedicated customer
 	support team
 	</li>
 	<li>
-	EMV and PCI compliant
+	<span class="y-text">CEMV and PCI compliant</span>
 	plus NFC capable equipment
 	</li>
 	<li>
-	Fast & Easy application process 
+	<span class="y-text">CFast & Easy</span> application process 
 	with no application fees!
 	</li>
 	<ul>
@@ -40,10 +40,17 @@
 			<div class="y-button">YES >></div>
 			<div class="y-button">NO >></div>
 			</div>
+			<div class="pagination">
+			<div class="pagination-item active"></div>
+			<div class="pagination-item"></div>
+			<div class="pagination-item"></div>
+			<div class="pagination-item"></div>
+
+			</div>
 		</div>
 	</div>
 	<div class="third-table"> 
-		<div class="table-header">*FREE TERMINAL</div>
+		<div class="table-header"><div class="free-star">*</div><span class="y-text">FREE </span> TERMINAL</div>
 		<div class="table-body table-content">
 			<ul>
 			<li>Retail/Swipe</li>

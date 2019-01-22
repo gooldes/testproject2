@@ -16,8 +16,8 @@
         <div class="hdr__hsp"></div>
       </div>
       <?php if(true/*$show_number*/) { ?>
-        <div class="hdr__call">
-		<div class="phone_icon">icon</div>
+        <div class="hdr__call flex">
+		<div class="phone_icon "><img src="v1/src/images/phone.png"></div>
 		<div class="phone_number">
           <a href="tel: <?php echo $ty ? $phone_ty : $phone; ?>">
             <p class="hdr__call-title">CALL FOR A FREE QUOTE</p>
